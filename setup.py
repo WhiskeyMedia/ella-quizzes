@@ -22,7 +22,7 @@ test_requires = [
 setup(
     name = 'ella-quizzes',
     description = "ella-quizzes",
-    url = "https://github.com/ella/ella-quizzes/",
+    url = "https://github.com/WhiskeyMedia/ella-quizzes/",
     long_description = long_description,
     version = __versionstr__,
     author = "ella",

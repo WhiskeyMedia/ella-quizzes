@@ -1,4 +1,7 @@
-from django.conf.urls.defaults import patterns, url
+try:
+    from django.conf.urls import patterns, url
+except:
+    from django.conf.urls.defaults import patterns, url
 
 from ella_quizzes.views import calculate, get_result
 

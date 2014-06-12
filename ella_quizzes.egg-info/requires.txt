@@ -1,2 +1,0 @@
-Django
-ella>=3.0.3

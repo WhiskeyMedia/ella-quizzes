@@ -82,7 +82,7 @@ class Question(models.Model):
     quiz = CachedForeignKey(Quiz)
     order = models.PositiveIntegerField()
 
-    photo = CachedForeignKey(Photo, blank=True, null=True, on_delete=models.SET_NULL)
+    photo = CachedForeignKey(Photo, blank=True, null=True, on_delete=models.SET_NULL, related_name='+')
     text = models.TextField()
 
     choices_data = models.TextField()
